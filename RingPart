@@ -80,7 +80,8 @@ end
 workspace.DescendantAdded:Connect(addPart)
 workspace.DescendantRemoving:Connect(removePart)
 
--- 🔥 CHANGED LOGIC: HORIZONTAL ALIGNMENT (NO ORBIT)
+print("changes pending here forward")
+
 RunService.Heartbeat:Connect(function()
 	if not ringPartsEnabled then return end
 
